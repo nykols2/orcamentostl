@@ -149,7 +149,7 @@ document.getElementById('uploadForm').addEventListener('submit', async function(
                 const materialValue = document.getElementById('material').value;
 
                 // Criar a URL com os parâmetros para a página de solicitação de orçamento
-                const url = `http://127.0.0.1:5500/solicitarorcamento/index.html?scale=${scaleValue}&infill=${infillValue}&material=${materialValue}`;
+                const url = `https://orcamentopresentes3d.netlify.app//index.html?scale=${scaleValue}&infill=${infillValue}&material=${materialValue}`;
                 window.location.href = url;
             });
 
